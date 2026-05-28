@@ -1,50 +1,29 @@
-# Welcome to your Expo app 👋
+# 📝 Note App (Expo / React Native)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A clean, responsive, and completely offline-first Note App built with Expo. This project focuses on a smooth user experience backed by robust local storage solutions.
 
-## Get started
+## 📱 Demo
 
-1. Install dependencies
+Here is a quick look at the app in action:
 
-   ```bash
-   npm install
-   ```
+[Screencast from 2026-05-28 23-40-42.webm](https://github.com/user-attachments/assets/faf07eb4-8388-46df-aff2-a04da645a1e0)
 
-2. Start the app
 
-   ```bash
-   npx expo start
-   ```
+## ✨ Features & What I Learned
 
-In the output, you'll find options to open the app in a
+This project was built during **Day 8 of Mobile App Development**, where I focused on transitioning from static UIs to full offline support:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+*   **Clean UI/UX:** Built a polished, highly interactive note-taking interface from scratch.
+*   **AsyncStorage:** Used for lightweight local settings and user preferences.
+*   **SQLite Integration:** Implemented for complex relational data (structuring, saving, and querying notes).
+*   **Secure Storage:** Kept sensitive user authentication data heavily encrypted.
+*   **File System:** Utilized for managing raw media, images, or attachments linked to notes.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## 🚀 Get Started
 
-When you're ready, run:
+1. **Install dependencies**
 
 ```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+   npm install
